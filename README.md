@@ -1,4 +1,4 @@
-Si directamente deseas descargar la ISO sin leer: visita mi [perfil de Internet Archive](https://archive.org/details/@deboniet).
+Si directamente deseas descargar la ISO sin leer, visita mi [perfil de Internet Archive](https://archive.org/details/@deboniet).
 
 # ¿Qué es Android x86?
 
@@ -6,7 +6,7 @@ Es un proyecto de software libre destinado a portar Android a la arquitectura x8
 
 # ¿Porque creas este repositorio?
 
-En el verano del 2024 el dominio de la página estuvo caído durante varias semanas y los servidores de OSDN donde está alojado el código fuente no tienen alta disponibilidad. Al estar el proyecto en decadencia creo que es necesario mantener alguna copia del mismo y he decidido crear este repositorio como medio para archivar y documentar todo lo que vaya haciendo al respecto.
+En el verano del 2024 el dominio de la página estuvo caído durante varias semanas y los servidores de OSDN donde está alojado el código fuente no tienen alta disponibilidad. Al estar el proyecto en decadencia creo que es necesario mantener alguna copia del mismo. He decidido crear este repositorio como medio para archivar y documentar todo lo que vaya haciendo al respecto.
 
 De todas formas, si deseas compilarlo por tu cuenta puedes usar [mi script](https://github.com/deboniet/scripts-bash/blob/main/androidx86build.sh) o puedes seguir igualmente las [instrucciones de la página oficial del proyecto](https://www.android-x86.org/source.html).
 
