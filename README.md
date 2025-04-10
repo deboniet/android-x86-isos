@@ -1,23 +1,23 @@
-Si directamente deseas descargar la ISO sin leer, visita mi [perfil de Internet Archive](https://archive.org/details/@deboniet).
+If you want to only download the ISOs, without reading why I do this, go to my [Internet Archive profile](https://archive.org/details/@deboniet).
 
-# ¿Qué es Android x86?
+# What is Android x86?
 
-Es un proyecto de software libre destinado a portar Android a la arquitectura x86, de manera que se pueda ejecutar en ordenadores que utilicen dicha arquitectura. El proyecto no es mío. Este repositorio solo sirve de enlace para descargar la ISO que yo he compilado con el código fuente del proyecto.
+It's an open source project that ports Android to the x86 arquitecture so it can be executed on the computers that have that CPU arquitecure. The project is not mine. This repository it's just a link for the ISOs I built, and a memo of the the things I'm doing to archive the versions that are not in a ISO format.
 
-# ¿Porque creas este repositorio?
+# Why did you create this repository?
 
-En el verano del 2024 el dominio de la página estuvo caído durante varias semanas y los servidores de OSDN donde está alojado el código fuente no tienen alta disponibilidad. Al estar el proyecto en decadencia creo que es necesario mantener alguna copia del mismo. He decidido crear este repositorio como medio para archivar y documentar todo lo que vaya haciendo al respecto.
+First, there are no official Android 10 and Android 11 ISOs from the developers of the project. Secondly, in the summer of 2024, OSDN servers went down for long periods of time. Right now, it's not possible to even connect to their servers. I thought that archiving those versions it's a good way of preserving that part of the Android x86 project.
 
-De todas formas, si deseas compilarlo por tu cuenta puedes usar [mi script](https://github.com/deboniet/scripts-bash/blob/main/androidx86build.sh) o puedes seguir igualmente las [instrucciones de la página oficial del proyecto](https://www.android-x86.org/source.html).
+Anyways, if you want to compile it by yourself you can use [my script](https://github.com/deboniet/scripts-bash/blob/main/androidx86build.sh) or you can follow [the official instructions](https://www.android-x86.org/source.html).
 
-# ¿Cómo has hecho la ISO?
+# How was the ISOs done?
 
-Siguiendo las instrucciones de la página oficial. El 10 de septiembre del 2024 compilé la última versión disponible en una arquitectura de 64 bits como user (es decir, tal y como sería una imagen real de Android). Las opciones y otras informaciones acerca de la compilación son las predeterminadas y se pueden consultar en system/build.prop.
+Following the official instructions. The compilation options and other information are the default ones, and can be viewed on **system/build.prop** inside the ISOs.
 
-# ¿Cómo obtengo la ISO?
+# How do I get the ISOs?
 
-La ISO ha sido subida a Internet Archive, una organización que se dedica a la preservación de Internet, por lo que es el lugar ideal para guardar esto.
+The ISOs are on Internet Archive, an organization that preserve the Internet. I think it's the best place to put this.
 
-# Hay diferentes formas de compilar el proyecto, ¿se subirán más versiones?
+# There will be more versions?
 
-Sí, es el plan. En principio me gustaría subir todas las posibles combinaciones de Android 11 y 10, que son aquellas versiones que no tienen ISO oficiales por parte de los desarrolladores.
+Yes, it's the plan. I would like to upload all posible versions of Android 10 and 11.
