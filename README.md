@@ -1,22 +1,34 @@
-If you want to only download the ISOs, without reading why I do this, go to my [Internet Archive profile](https://archive.org/details/@deboniet).
+Below is more information about what I do in relation to the Android-x86 project. If you want the ISOs, they are hosted on [my Internet Archive profile](https://archive.org/details/@deboniet).
+
+[Android 11 ISOs](https://archive.org/details/androidx86-11-isos)\
+[Android 10 ISOs](https://archive.org/details/androidx86-10-isos)
 
 # What is Android-x86?
 
-It's an open source project that ports Android to the x86 arquitecture so it can be executed on the computers that have that CPU arquitecure. The project is not mine. This repository it's just a link for the ISOs I built, and a memo of the the things I'm doing to archive the versions that are not in a ISO format.
+It's an open source project that ports Android to the x86 arquitecture so it can be executed in the computers that have that CPU arquitecure. The project is not mine. This repository it's just a link for the ISOs I built, and a memo of the the things I'm doing to archive the versions that are not in a ISO format.
 
 # Why did you create this repository?
 
-First, there are no official Android 10 and Android 11 ISOs from the developers of the project. Secondly, in the summer of 2024, OSDN servers went down for long periods of time. Right now, it's not possible to even connect to their servers. I thought that archiving those versions it's a good way of preserving that part of the Android x86 project.
+First, there are no official Android 10 and Android 11 ISOs from the developers of the project. Secondly, in the summer of 2024, OSDN servers went down for long periods of time. Right now, it's not possible to even connect to their servers. I thought that archiving those versions it's a good way of preserving that part of the Android-x86 project.
 
-Anyways, if you want to compile it by yourself you can use [my script](https://github.com/deboniet/scripts-bash/blob/main/androidx86build.sh) or you can follow [the outdated and not working official instructions](https://www.android-x86.org/source.html).
+My ISOs are the result of my compilations, but you can also compile it by yourself using [my script](https://github.com/deboniet/scripts-bash/blob/main/androidx86build.sh), or you can follow [the outdated and not working official instructions](https://www.android-x86.org/source.html).
 
 # How was the ISOs done?
-Based on the official instructions. The compilation options and other information are the default ones, and can be viewed on **system/build.prop** inside the ISOs.
+Based on official instructions. The compilation options and other information are the default ones, and can be viewed on **system/build.prop** inside the ISOs file systems.
 
 # How do I get the ISOs?
 
 The ISOs are on Internet Archive, an organization that preserve the Internet. I think it's the best place to put this.
 
-# There will be more versions?
+# Which versions did you archive?
 
-Yes, it's the plan. I would like to upload all posible versions of Android 10 and 11.
+All targets of Android 10 and 11 in x86 and x86_64 architectures.
+
+# When I run the ISOs nothing appears on screen, what can I do?
+
+When Grub menu appears follow the next steps:
+
+1. Press the key *E*
+2. Add the parameter *nomodeset* to the line that starts with *linux*
+3. Press the key *F10*
+4. The Android boot screen should appear and the ISO will boot properly.
