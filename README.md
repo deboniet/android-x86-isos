@@ -3,6 +3,8 @@ Below is more information about what I do in relation to the Android-x86 project
 [Android 11 ISOs](https://archive.org/details/androidx86-11-isos)\
 [Android 10 ISOs](https://archive.org/details/androidx86-10-isos)
 
+[Common errors in the ISOs](https://github.com/deboniet/android-x86-isos/tree/main#common-errors-in-the-isos)
+
 # What is Android-x86?
 
 It's an open source project that ports Android to the x86 arquitecture so it can be executed in the computers that have that CPU arquitecure. The project is not mine. This repository it's just a link for the ISOs I built, and a memo of the the things I'm doing to archive the versions that are not in a ISO format.
