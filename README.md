@@ -7,7 +7,7 @@ Below is more information about what I do in relation to the Android-x86 project
 
 # What is Android-x86?
 
-It's an open source project that ports Android to the x86 arquitecture so it can be executed in the computers that have that CPU arquitecure. The project is not mine. This repository it's just a link for the ISOs I built, and a memo of the the things I'm doing to archive the versions that are not in a ISO format.
+It's an open source project that ports Android to the x86 arquitecture so it can be executed in the computers that have that CPU arquitecure. The project is not mine. This repository it's just a link for the ISOs I built, and a memo of the things I'm doing to archive the versions that are not in a ISO format.
 
 # Why did you create this repository?
 
